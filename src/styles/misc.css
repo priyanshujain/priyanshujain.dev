@@ -1,7 +1,7 @@
 :root {
   --signature-blue: #132945; /* #232A69; */
   --background-blue: #132945; /* #08083d; */
-  --signature-grey: rgba(51, 62, 99, 0.5);
+  --signature-grey: rgba(51, 62, 99, 0.7);
   --signature-red: #e2382a;
   --danger-red: #ff0000;
   --signature-green: #72d892;
@@ -10,8 +10,8 @@
   --primary-color: #132945; /* #132945; */
   --primary-color-rgb: 19, 41, 69;
   --primary-text-color: #1f2533;
-  --secondary-text-color: rgba(31, 37, 51, 0.7);
-  --tertiary-text-color: rgb(112, 116, 125);
+  --secondary-text-color: rgba(31, 37, 51, 0.8);
+  --tertiary-text-color: rgba(112, 116, 125, 0.6);
   ;
 }
 
@@ -747,6 +747,10 @@ h3:hover a.anchor {
 
   .mw-s-l {
     max-width: 48rem;
+  }
+
+  .mw-20-l {
+    max-width: 20rem;
   }
 
   .mw-30-l {

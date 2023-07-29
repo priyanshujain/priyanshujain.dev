@@ -34,7 +34,8 @@ function SEO({
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const imageUrl = site.siteMetadata.image;
+  console.log("image", image);
+  const imageUrl = image || site.siteMetadata.image;
 
   return (
     <Helmet

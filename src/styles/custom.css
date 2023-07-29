@@ -186,7 +186,7 @@
 }
 
 .underline {
-  border-bottom: 4px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .green-check-icon {

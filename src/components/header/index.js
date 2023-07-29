@@ -4,9 +4,9 @@ import styleVars from "../../styles/style-vars";
 const Header = ({ className }) => {
   const isAbout =
     typeof window !== "undefined" ? window.location.pathname === "/" : false;
-  const isBlog =
+  const isWriting =
     typeof window !== "undefined"
-      ? window.location.pathname?.includes?.("blog")
+      ? window.location.pathname?.includes?.("writings")
       : false;
   return (
     <div className={`${className} header-container`} id="header-container">
@@ -24,11 +24,11 @@ const Header = ({ className }) => {
           </a>
           <a
             className={`primary-text-color ma0 pa0 f5 mr6 ${
-              isBlog ? "fw-bold" : ""
+              isWriting ? "fw-bold" : ""
             }`}
-            href="/blog"
+            href="/writings"
           >
-            Blog
+            Writings
           </a>
           
         </div>
