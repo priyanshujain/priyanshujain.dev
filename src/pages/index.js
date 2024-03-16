@@ -23,17 +23,14 @@ const Index = props => {
   return (
     <Layout headerClass="">
       <SEO title="About Priyanshu Jain" />
-      <div class="main-content" style={{
-        minHeight: "100vh"
-      }}>
-  
+      <div class="main-content">
         <SectionBox
           heading="Priyanshu Jain"
           headingClass="ma0 pa0 f2 f-headline-ns sig-blue fw-600 tc thead w-100"
           bodyClass="col-12 mw-100 w-100 center"
           className="pt16"
           />
-        <div className="pt0 pb5 pt10-ns pb20-ns">
+        <div className="pt0 pb5 pt10-ns">
           <div className="mw-l center">
           <p className="ma0 pa0 pl5 pr5 mt4 f4 f3-ns sig-grey">
             I am a software developer based in Bangalore, India.

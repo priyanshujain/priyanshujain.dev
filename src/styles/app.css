@@ -19,5 +19,11 @@ body {
 }
 
 .main-content {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 400px);
+}
+
+
+th, td {
+  font-size: 1.6rem;
+  padding: 1.6rem;
 }

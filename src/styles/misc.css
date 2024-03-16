@@ -122,6 +122,10 @@ p {
   max-height: 20rem;
 }
 
+.fit-content {
+  max-width: fit-content;
+}
+
 .mw4 {
   max-width: 4rem;
 }

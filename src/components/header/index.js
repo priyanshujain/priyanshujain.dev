@@ -8,6 +8,10 @@ const Header = ({ className }) => {
     typeof window !== "undefined"
       ? window.location.pathname?.includes?.("writings")
       : false;
+  const isGists = 
+    typeof window !== "undefined"
+      ? window.location.pathname?.includes?.("gists")
+      : false;
   return (
     <div className={`${className} header-container`} id="header-container">
       <div
@@ -30,7 +34,14 @@ const Header = ({ className }) => {
           >
             Writings
           </a>
-          
+          <a
+            className={`primary-text-color ma0 pa0 f5 mr6 ${
+              isGists ? "fw-bold" : ""
+            }`}
+            href="/gists"
+          >
+            Gists
+          </a>
         </div>
       </div>
     </div>

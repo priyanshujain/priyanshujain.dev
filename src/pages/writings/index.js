@@ -16,16 +16,16 @@ const Writing = (props) => {
               topics.
             </p>
             <div>
-              <div className="mt10 ma20">
+              <div className="mt10 ma20-l">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/signing-up-for-ironman"
                 >
-                  <h4 className="f3 flex justify-between">
-                  <p className="underline">
+                  <h4 className="f3 flex-l justify-between">
+                  <p className="underline fit-content">
                   I signed up for an Ironman race
                   </p>
-                  <p className="tertiary-text-color">
+                  <p className="tertiary-text-color tl">
                     July 29, 2023
                   </p>
                   </h4>
