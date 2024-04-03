@@ -21,12 +21,25 @@ const Writing = (props) => {
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/signing-up-for-ironman"
                 >
-                  <h4 className="f3 flex-l justify-between">
+                  <h4 className="f3 ma0 flex-l justify-between">
                   <p className="underline fit-content">
                   I signed up for an Ironman race
                   </p>
                   <p className="tertiary-text-color tl">
                     July 29, 2023
+                  </p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/training-for-ironman"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                  <p className="underline fit-content">
+                  Training for my first half Ironman
+                  </p>
+                  <p className="tertiary-text-color tl">
+                    August 15th, 2023
                   </p>
                   </h4>
                 </a>
