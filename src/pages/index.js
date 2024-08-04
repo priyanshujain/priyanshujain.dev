@@ -34,11 +34,12 @@ const Index = props => {
           <div className="mw-l center">
           <p className="ma0 pa0 pl5 pr5 mt4 f4 f3-ns sig-grey">
             I am a software developer based in Bangalore, India.
-            I currently work at OkCredit where I am responsible for building the core payments platform and help fellow developers on technical problems.
+            I currently work at OkCredit where I work as Principal Engineer and responsible for 
+            building the core payments platform and help fellow developers on technical problems.
             <br />
             <br />
              Over my career I have worked in multiple industries including healthcare, recruiting platforms and payments.
-              previously I co-founded a payments startup in the US market and ran it for 3 years where 
+              previously I co-founded an international payments startup in the US market and ran it for 3 years where 
               I was responsible for overall product and technology.
             <br />
             <br />
@@ -46,7 +47,7 @@ const Index = props => {
 
             <br />
             <br />
-            I am a big believer of effective altruism. Recently I start a non-profit initiative, PlayTogether. 
+            I am a big believer of effective altruism. I run a non-profit initiative, PlayTogether. 
             It's a sports platform for underprivileged athletes to crowdfund for training expenses,
              create personalized campaigns and engage with a community of supporters.
             </p>
