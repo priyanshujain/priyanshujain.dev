@@ -73,12 +73,10 @@ const Page = (props) => {
   return (
     <Layout headerClass="">
       <SEO
-        title="I signed up for Ironman 70.3 race"
+        title="Essays by Paul Graham"
         description={
-          `Almost two kilometres of swimming, 90 kilometres on the bike, and 21 kilometres of running, ` +
-          `this was what it takes to finish an Ironman 70.3 race`
+          `A collection of essays by Paul Graham`
         }
-        image={"/Ironman-70.3.jpg"}
       />
       <div
         class="main-content"
