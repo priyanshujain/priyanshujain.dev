@@ -12,6 +12,10 @@ const Header = ({ className }) => {
     typeof window !== "undefined"
       ? window.location.pathname?.includes?.("gists")
       : false;
+  const isFavorites = 
+    typeof window !== "undefined"
+      ? window.location.pathname?.includes?.("favorites")
+      : false;
   return (
     <div className={`${className} header-container`} id="header-container">
       <div
@@ -33,6 +37,14 @@ const Header = ({ className }) => {
             href="/writings"
           >
             Writings
+          </a>
+          <a
+            className={`primary-text-color ma0 pa0 f5 mr6 ${
+              isFavorites ? "fw-bold" : ""
+            }`}
+            href="/favorites"
+          >
+            Favorites
           </a>
           <a
             className={`primary-text-color ma0 pa0 f5 mr6 ${

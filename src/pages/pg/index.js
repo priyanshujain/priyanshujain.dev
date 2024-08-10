@@ -32,6 +32,10 @@ const Page = (props) => {
           const title = aTags[i].textContent;
           essays.push({ name, href, title });
         }
+        // sort essays by name
+        essays.sort((a, b) => {
+          return a.title.localeCompare(b.title);
+        })
         setEssayList(essays);
       } catch (error) {
         console.error("Fetch error:", error);
@@ -62,6 +66,21 @@ const Page = (props) => {
         <div className=" pt0 pb5 pt10 pt10-ns pb20-ns">
           <div className="mw-l center">
             <p className="ma0 pa0 pl5 pr5 mt4 f4 f3-ns sig-grey">
+              <div className="pb20">
+                All the content, views and opinions present in the essays in the
+                app belongs to original author i.e., Paul Graham.
+                <br />
+                This page uses the rss feed provided in Paul Graham's website
+                and merely renders essays displayed in the site {" "}
+                <a href="http://paulgraham.com/articles.html" target="_blank">
+                  http://paulgraham.com/articles.html
+                </a>
+                . This is just a wrapper to display essays which are freely
+                available in Paul Grahams website. This page is intended
+                to provide easy access and beautiful reading experience for Paul
+                Grahams essays.
+                <br />
+              </div>
               {essayList.map((essay, index) => (
                 <a
                   key={index}
