@@ -35,7 +35,7 @@ const Page = (props) => {
                   to="/pg"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Paul Graham's Essays</p>
+                    <p className="fit-content">Paul Graham's Essays</p>
                   </h4>
                 </Link>
                 <a 
@@ -44,7 +44,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">12 Rules for Life by Jordan Peterson</p>
+                    <p className="fit-content">12 Rules for Life by Jordan Peterson</p>
                   </h4>
                 </a>
                 <a 
@@ -53,7 +53,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Atomic Habits by James Clear</p>
+                    <p className="fit-content">Atomic Habits by James Clear</p>
                   </h4>
                 </a>
                 <a 
@@ -62,7 +62,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Naval Ravikant</p>
+                    <p className="fit-content">Naval Ravikant</p>
                   </h4>
                 </a>
                 <a 
@@ -71,7 +71,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Why We Sleep by Matthew Walker</p>
+                    <p className="fit-content">Why We Sleep by Matthew Walker</p>
                   </h4>
                 </a>
                 <a 
@@ -80,7 +80,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">80,000 hours</p>
+                    <p className="fit-content">80,000 hours</p>
                   </h4>
                 </a>
             </p>
