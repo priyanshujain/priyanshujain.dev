@@ -136,22 +136,25 @@ const Index = props => {
               Apart from this  I founded PlayTogether, a platform dedicated to supporting underprivileged athletes 
               by connecting them with resources and opportunities. It's my way of merging my passion for
                sports with a mission to level the playing field.
-            </p>
-            <br />
+               <br />
             <br />
 
-            <h4 className="f3 sig-blue">Pictures</h4>
+               <h4 className="f3 sig-blue">Pictures</h4>
             {<Icon name="pj.jpeg" style={{
-                maxWidth: '600px',
+                width: '600px',
+                maxWidth: '100%',
                 margin: '20px auto',
                 borderRadius: '8px',
                }} /> }
             <br />
             {<Icon name="ironman-pj.jpeg" style={{
-                maxWidth: '600px',
+                width: '600px',
+                maxWidth: '100%',
                 margin: '20px auto',
                 borderRadius: '8px',
                }} /> }
+            </p>
+            
           </div>
         </div>
       </div>
