@@ -189,6 +189,10 @@
   border-bottom: 3px solid var(--primary-color);
 }
 
+.left {
+  text-align: left;
+}
+
 .green-check-icon {
   /* background: white;
   padding: 7px 5px; */

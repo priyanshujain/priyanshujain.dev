@@ -118,7 +118,7 @@ const Writing = (props) => {
                   href="/writings/t-shaped-engineer"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">T-shaped engineer</p>
+                    <p className="left fit-content">T-shaped engineer</p>
                     <p className="tertiary-text-color tl">Sep 01, 2024</p>
                   </h4>
                 </a>
@@ -127,7 +127,7 @@ const Writing = (props) => {
                   href="/writings/level-of-error-handling"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       Level of error handling
                     </p>
                     <p className="tertiary-text-color tl">Aug 22, 2024</p>
@@ -138,7 +138,7 @@ const Writing = (props) => {
                   href="/writings/software-bugs"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Software bugs</p>
+                    <p className="left fit-content">Software bugs</p>
                     <p className="tertiary-text-color tl">Aug 21, 2024</p>
                   </h4>
                 </a>
@@ -147,7 +147,7 @@ const Writing = (props) => {
                   href="/writings/why-software-projects-are-notoriously-late"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       Why software projects are notoriously late?
                     </p>
                     <p className="tertiary-text-color tl">Aug 20, 2024</p>
@@ -158,7 +158,7 @@ const Writing = (props) => {
                   href="/writings/does-altruism-really-exist"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       Does altruism really exist?
                     </p>
                     <p className="tertiary-text-color tl">Aug 18, 2024</p>
@@ -169,7 +169,7 @@ const Writing = (props) => {
                   href="/writings/naming-is-hard"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Naming is hard</p>
+                    <p className="left fit-content">Naming is hard</p>
                     <p className="tertiary-text-color tl">Aug 13, 2024</p>
                   </h4>
                 </a>
@@ -178,7 +178,7 @@ const Writing = (props) => {
                   href="/writings/why-chrome"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">Why Chrome?</p>
+                    <p className="left fit-content">Why Chrome?</p>
                     <p className="tertiary-text-color tl">Aug 09, 2024</p>
                   </h4>
                 </a>
@@ -187,7 +187,7 @@ const Writing = (props) => {
                   href="/writings/training-for-ironman"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       Training for my first half Ironman
                     </p>
                     <p className="tertiary-text-color tl">Aug 15, 2023</p>
@@ -198,7 +198,7 @@ const Writing = (props) => {
                   href="/writings/signing-up-for-ironman"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       I signed up for an Ironman race
                     </p>
                     <p className="tertiary-text-color tl">Jul 29, 2023</p>
@@ -220,7 +220,7 @@ const Writing = (props) => {
                   target="_blank"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       A Survey on Algorithms and Constraints for Modern Kidney
                       Exchanges
                     </p>
@@ -233,7 +233,7 @@ const Writing = (props) => {
                   target="_blank"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="underline fit-content">
+                    <p className="left fit-content">
                       Stable Marriage Problem (matching algorithm)
                     </p>
                     <p className="tertiary-text-color tl">2016</p>
@@ -256,7 +256,7 @@ const Writing = (props) => {
                     target="_blank"
                   >
                     <h4 className="f3 ma0 flex-l justify-between">
-                      <p className="underline fit-content">{writing.title}</p>
+                      <p className="left fit-content">{writing.title}</p>
                       <p className="tertiary-text-color tl">{writing.date}</p>
                     </h4>
                   </a>
