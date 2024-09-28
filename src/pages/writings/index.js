@@ -115,13 +115,71 @@ const Writing = (props) => {
               <div className="mt10 ma20-l">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
-                  href="/writings/signing-up-for-ironman"
+                  href="/writings/t-shaped-engineer"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">T-shaped engineer</p>
+                    <p className="tertiary-text-color tl">Sep 01, 2024</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/level-of-error-handling"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
                     <p className="underline fit-content">
-                      I signed up for an Ironman race
+                      Level of error handling
                     </p>
-                    <p className="tertiary-text-color tl">July 29, 2023</p>
+                    <p className="tertiary-text-color tl">Aug 22, 2024</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/software-bugs"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">Software bugs</p>
+                    <p className="tertiary-text-color tl">Aug 21, 2024</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/why-software-projects-are-notoriously-late"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">
+                      Why software projects are notoriously late?
+                    </p>
+                    <p className="tertiary-text-color tl">Aug 20, 2024</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/does-altruism-really-exist"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">
+                      Does altruism really exist?
+                    </p>
+                    <p className="tertiary-text-color tl">Aug 18, 2024</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/naming-is-hard"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">Naming is hard</p>
+                    <p className="tertiary-text-color tl">Aug 13, 2024</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/why-chrome"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">Why Chrome?</p>
+                    <p className="tertiary-text-color tl">Aug 09, 2024</p>
                   </h4>
                 </a>
                 <a
@@ -132,7 +190,18 @@ const Writing = (props) => {
                     <p className="underline fit-content">
                       Training for my first half Ironman
                     </p>
-                    <p className="tertiary-text-color tl">August 15, 2023</p>
+                    <p className="tertiary-text-color tl">Aug 15, 2023</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/signing-up-for-ironman"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="underline fit-content">
+                      I signed up for an Ironman race
+                    </p>
+                    <p className="tertiary-text-color tl">Jul 29, 2023</p>
                   </h4>
                 </a>
               </div>
@@ -155,7 +224,7 @@ const Writing = (props) => {
                       A Survey on Algorithms and Constraints for Modern Kidney
                       Exchanges
                     </p>
-                    <p className="tertiary-text-color tl">2017</p>
+                    <p className="tertiary-text-color tl">2016</p>
                   </h4>
                 </a>
                 <a
@@ -167,7 +236,7 @@ const Writing = (props) => {
                     <p className="underline fit-content">
                       Stable Marriage Problem (matching algorithm)
                     </p>
-                    <p className="tertiary-text-color tl">2017</p>
+                    <p className="tertiary-text-color tl">2016</p>
                   </h4>
                 </a>
               </div>
