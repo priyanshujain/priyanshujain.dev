@@ -31,6 +31,13 @@ const Page = (props) => {
           ?.getElementsByTagName("table")[0]
           .getElementsByTagName("font")[0].innerHTML;
 
+          // if table contains Want to start a startup? then replace table by another table
+        if (table.includes("Want to start a startup?")) {
+          table = doc
+            .getElementsByTagName("table")[0]
+            ?.getElementsByTagName("table")[0]?.getElementsByTagName("font")[2]?.innerHTML;
+        }
+
         // if any of the a tags have a href matching *.html  then replace it with /pg/essays?essay=*
         const aTags = table.match(/<a href=".*.html">.*<\/a>/g);
         if (aTags) {
