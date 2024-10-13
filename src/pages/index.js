@@ -5,8 +5,6 @@ import { SectionBox } from "../components/home";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Index = (props) => {
-  const sideClassName = "col-12 col-6-l mt6 mt0-l";
-
   return (
     <Layout headerClass="">
       <SEO title="About Priyanshu Jain" />
@@ -16,8 +14,7 @@ const Index = (props) => {
           headingClass="ma0 pa0 f2 f-headline-ns sig-blue fw-600 tc thead w-100"
           bodyClass="col-12 mw-100 w-100 center"
           className="pt16"
-          sideImgClassName="hero-image"
-          sideClass={`${sideClassName} o2 o2-l col-7-l justify-self-center justify-self-end-r`}
+          sideClass={`col-12 col-6-l mt6 mt0-l o2 o2-l col-7-l justify-self-center justify-self-end-r`}
         />
         <div className="pt0 pb5 pt10-ns">
           <div className="mw-l center">
