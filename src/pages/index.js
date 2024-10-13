@@ -3,6 +3,7 @@ import Layout from "../components/layout/index";
 import SEO from "../components/seo";
 import { SectionBox } from "../components/home";
 import Icon from "../components/Icon";
+import { StaticImage } from "gatsby-plugin-image";
 
 const handleScroll = (isModalOpen) => {
   if (isModalOpen === true) {
@@ -154,14 +155,16 @@ const Index = (props) => {
               Last few years, I have been training for running and triathlons. I
               have been part of running groups and have participated in more
               than 40 sporting events.
+              <br />
               {
-                <Icon
-                  name="medals.jpeg"
+                <StaticImage
+                  src="https://pub-542530527f654674852705ad26a74a46.r2.dev/medals.jpeg"
                   style={{
                     maxWidth: "360px",
                     margin: "20px auto",
                     borderRadius: "8px",
                   }}
+                  alt=""
                 />
               }
               <br />
@@ -192,26 +195,28 @@ const Index = (props) => {
               <br />
               <h4 className="f3 sig-blue">Pictures</h4>
               {
-                <Icon
-                  name="pj.jpeg"
+                <StaticImage
+                  src="https://pub-542530527f654674852705ad26a74a46.r2.dev/pj.jpeg"
                   style={{
                     width: "600px",
                     maxWidth: "100%",
                     margin: "20px auto",
                     borderRadius: "8px",
                   }}
+                  alt=""
                 />
               }
               <br />
               {
-                <Icon
-                  name="ironman-pj.jpeg"
+                <StaticImage
+                  src="https://pub-542530527f654674852705ad26a74a46.r2.dev/ironman-pj.jpeg"
                   style={{
                     width: "600px",
                     maxWidth: "100%",
                     margin: "20px auto",
                     borderRadius: "8px",
                   }}
+                  alt=""
                 />
               }
             </p>
