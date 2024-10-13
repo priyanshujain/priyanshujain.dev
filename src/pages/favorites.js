@@ -26,7 +26,7 @@ const Page = (props) => {
         <div className=" pt0 pb5 pt10 pt10-ns pb20-ns">
           <div className="mw-l center">
             <div className="ma0 pa0 pl5 pr5 mt4">
-              <p className="pb20">
+              <p className="pb20 f4 f3-ns sig-gray">
               Some of my favorite blogs/essays/books that I have read over the
               years. 
               </p>

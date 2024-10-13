@@ -80,7 +80,9 @@ const Index = (props) => {
               <br />
               <br />I am a big fan of open source. I build and maintain a few
               open source projects :-
+              </p>
               <ul
+                className="f4 f3-ns sig-grey"
                 style={{
                   marginTop: "8px",
                 }}
@@ -113,6 +115,7 @@ const Index = (props) => {
                   pandemic (looking for volunteers to help organize sessions)
                 </li>
               </ul>
+              <p className="f4 f3-ns sig-grey">
               <br />I idetify myself a software philosopher and always ponder
               about the complexity of software systems and what makes a software
               great. I have this{" "}

@@ -123,6 +123,15 @@ const Writing = (props) => {
                   </h4>
                 </a>
                 <a
+                className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/ideal-software"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">Imagining the Ideal Software</p>
+                    <p className="tertiary-text-color tl">Sep 15, 2024</p>
+                  </h4>
+                </a>
+                <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/t-shaped-engineer"
                 >
