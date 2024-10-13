@@ -1,28 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Layout from "../components/layout/index";
 import SEO from "../components/seo";
 import { SectionBox } from "../components/home";
-import Icon from "../components/Icon";
-
-const handleScroll = (isModalOpen) => {
-  if (isModalOpen === true) {
-    document.documentElement.style.overflow = "hidden";
-  } else {
-    document.documentElement.style.overflowY = "scroll";
-  }
-};
+import { StaticImage } from "gatsby-plugin-image";
 
 const Index = (props) => {
-  const [isContactOpen, setContact] = useState(false);
-  const handleContact = () => {
-    // Look into state updates
-    // Look into state updates
-    handleScroll(!isContactOpen);
-    setContact(!isContactOpen);
-  };
-
-  const sideClassName = "col-12 col-6-l mt6 mt0-l";
-
   return (
     <Layout headerClass="">
       <SEO title="About Priyanshu Jain" />
@@ -32,20 +14,21 @@ const Index = (props) => {
           headingClass="ma0 pa0 f2 f-headline-ns sig-blue fw-600 tc thead w-100"
           bodyClass="col-12 mw-100 w-100 center"
           className="pt16"
-          sideImgClassName="hero-image"
-          sideClass={`${sideClassName} o2 o2-l col-7-l justify-self-center justify-self-end-r`}
+          sideClass={`col-12 col-6-l mt6 mt0-l o2 o2-l col-7-l justify-self-center justify-self-end-r`}
         />
         <div className="pt0 pb5 pt10-ns">
           <div className="mw-l center">
-            <p className="ma0 pa0 pl5 pr5 mt4 f4 f3-ns sig-grey">
-              <p
+            <div className="ma0 pa0 pl5 pr5 mt4">
+              <span
                 className="f3 sig-grey"
                 style={{
                   fontStyle: "italic",
                 }}
               >
                 Programmer/ Athelete / Effective Altruist
-              </p>
+              </span>
+              <br />
+              <p className="f4 f3-ns sig-grey">
               I am pjay, a software developer and an advocate for
               technology-driven impact. I sometimes{" "}
               <a href="/writings">write</a> about software, philosophy, and
@@ -70,9 +53,11 @@ const Index = (props) => {
                 Github
               </a>
               .
+              </p>
               <br />
               <br />
               <h4 className="f3 sig-blue">Programmer</h4>
+              <p className="f4 f3-ns sig-grey">
               For a brief period I was doing research in the field of matching
               algorithms and wrote two papers on applications of matching
               algorithms in healthcare(organ exchanges).
@@ -95,7 +80,9 @@ const Index = (props) => {
               <br />
               <br />I am a big fan of open source. I build and maintain a few
               open source projects :-
+              </p>
               <ul
+                className="f4 f3-ns sig-grey"
                 style={{
                   marginTop: "8px",
                 }}
@@ -128,6 +115,7 @@ const Index = (props) => {
                   pandemic (looking for volunteers to help organize sessions)
                 </li>
               </ul>
+              <p className="f4 f3-ns sig-grey">
               <br />I idetify myself a software philosopher and always ponder
               about the complexity of software systems and what makes a software
               great. I have this{" "}
@@ -146,7 +134,10 @@ const Index = (props) => {
               why companies like Basecamp have thrived—they use simple,
               well-understood tools to solve real problems, rather than chasing
               the latest trends or technologies.
+              </p>
+              <br />
               <h4 className="f3 sig-blue">Athlete</h4>
+              <p className="f4 f3-ns sig-grey">
               I'm a sports enthusiast and have experience of running many
               marathons and triathlons(🏊🚴🏃). I did an Ironman 70.3 in 2022.
               This started as a channel to get out of the house and get some for
@@ -154,14 +145,16 @@ const Index = (props) => {
               Last few years, I have been training for running and triathlons. I
               have been part of running groups and have participated in more
               than 40 sporting events.
+              <br />
               {
-                <Icon
-                  name="medals.jpeg"
+                <StaticImage
+                  src="https://pub-542530527f654674852705ad26a74a46.r2.dev/medals.jpeg"
                   style={{
                     maxWidth: "360px",
                     margin: "20px auto",
                     borderRadius: "8px",
                   }}
+                  alt=""
                 />
               }
               <br />
@@ -171,7 +164,9 @@ const Index = (props) => {
               enrolled in a mountaineering course at HMI Darjeeling (starting
               Dec 2024) and have been training for it for the last few months.
               <br />
+              </p>
               <h4 className="f3 sig-blue">Effective Altruist</h4>
+              <p className="f4 f3-ns sig-grey">
               Beyond my work in tech, I am committed to giving back. I am a big
               believer of effective altruism—using evidence and reason to figure
               out how to benefit others the most and taking action on that
@@ -188,33 +183,36 @@ const Index = (props) => {
               supporting underprivileged athletes by connecting them with
               resources and opportunities. It's my way of merging my passion for
               sports with a mission to level the playing field.
+              </p>
               <br />
               <br />
               <h4 className="f3 sig-blue">Pictures</h4>
               {
-                <Icon
-                  name="pj.jpeg"
+                <StaticImage
+                  src="https://pub-542530527f654674852705ad26a74a46.r2.dev/pj.jpeg"
                   style={{
                     width: "600px",
                     maxWidth: "100%",
                     margin: "20px auto",
                     borderRadius: "8px",
                   }}
+                  alt=""
                 />
               }
               <br />
               {
-                <Icon
-                  name="ironman-pj.jpeg"
+                <StaticImage
+                  src="https://pub-542530527f654674852705ad26a74a46.r2.dev/ironman-pj.jpeg"
                   style={{
                     width: "600px",
                     maxWidth: "100%",
                     margin: "20px auto",
                     borderRadius: "8px",
                   }}
+                  alt=""
                 />
               }
-            </p>
+            </div>
           </div>
         </div>
       </div>

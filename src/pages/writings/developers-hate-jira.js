@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Layout from "../../components/layout/index";
 import SEO from "../../components/seo";
 import { SectionBox } from "../../components/home";
-import Icon from "../../components/Icon";
 
 const handleScroll = (isModalOpen) => {
   if (isModalOpen === true) {

@@ -5,17 +5,17 @@
 @import "custom.css";
 
 @font-face {
-  font-family: 'HK Grotesk';
+  font-family: 'Circular';
   src: url("./fonts/CircularStd-Book.otf") format("woff");
 }
 
 @font-face {
-  font-family: 'Bookmania Bold';
+  font-family: 'Circular Bold';
   src: url("./fonts/CircularStd-Bold.otf");
 }
 
 body {
-  font-family: 'HK Grotesk', sans-serif !important;
+  font-family: 'Circular', sans-serif !important;
 }
 
 .main-content {
