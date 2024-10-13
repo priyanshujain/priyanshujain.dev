@@ -9,9 +9,9 @@
 module.exports = {
   siteMetadata: {
     title: `Priyanshu Jain`,
-    description: `priyanshujain.dev`,
-    author: `Priyanshu Jain Team`,
-    image: "https://priyanshujain.dev/PJ.jpg",
+    description: `pjay.in`,
+    author: `Priyanshu Jain`,
+    image: "src/images/PJ.jpg",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,13 +38,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `priyanshujain.dev`,
+        name: `pjay.in`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#132945`,
         theme_color: `#132945`,
         display: `minimal-ui`,
-        icon: `src/images/PJ.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/PJ.jpg`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

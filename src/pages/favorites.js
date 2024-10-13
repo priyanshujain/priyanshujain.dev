@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Layout from "../components/layout/index";
 import SEO from "../components/seo";
 import { SectionBox } from "../components/home";
@@ -8,8 +8,8 @@ const Page = (props) => {
   return (
     <Layout headerClass="">
       <SEO
-        title="Essays by Paul Graham"
-        description={`A collection of essays by Paul Graham`}
+        title="My Favorite Blogs/Books"
+        description={`A list of my favorite blogs/essays/books that I have read over the years.`}
       />
       <div
         class="main-content"
@@ -18,7 +18,7 @@ const Page = (props) => {
         }}
       >
         <SectionBox
-          heading="Favorite"
+          heading="Favorites"
           headingClass="ma0 pa0 f2 f-headline-ns sig-blue fw-600"
           bodyClass="col-12 mw-100 center"
           className="pt16"
@@ -35,7 +35,7 @@ const Page = (props) => {
                   to="/pg"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="fit-content">Paul Graham's Essays</p>
+                    <p className="underline fit-content">Paul Graham's Essays</p>
                   </h4>
                 </Link>
                 <a 
@@ -44,7 +44,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="fit-content">12 Rules for Life by Jordan Peterson</p>
+                    <p className="underline fit-content">12 Rules for Life by Jordan Peterson</p>
                   </h4>
                 </a>
                 <a 
@@ -53,7 +53,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="fit-content">Atomic Habits by James Clear</p>
+                    <p className="underline fit-content">Atomic Habits by James Clear</p>
                   </h4>
                 </a>
                 <a 
@@ -62,7 +62,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="fit-content">Naval Ravikant</p>
+                    <p className="underline fit-content">Naval Ravikant</p>
                   </h4>
                 </a>
                 <a 
@@ -71,7 +71,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="fit-content">Why We Sleep by Matthew Walker</p>
+                    <p className="underline fit-content">Why We Sleep by Matthew Walker</p>
                   </h4>
                 </a>
                 <a 
@@ -80,7 +80,7 @@ const Page = (props) => {
                   target="_blank" rel
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
-                    <p className="fit-content">80,000 hours</p>
+                    <p className="underline fit-content">80,000 hours</p>
                   </h4>
                 </a>
             </p>

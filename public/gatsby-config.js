@@ -9,9 +9,9 @@
 module.exports = {
   siteMetadata: {
     title: `Priyanshu Jain`,
-    description: `priyanshujain.dev`,
+    description: `pjay.in`,
     author: `Priyanshu Jain`,
-    image: "https://priyanshujain.dev/PJ.jpg",
+    image: "https://pjay.in/PJ.jpg",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -37,7 +37,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `priyanshujain.dev`,
+        name: `pjay.in`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#132945`,

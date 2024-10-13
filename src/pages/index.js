@@ -1,27 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Layout from "../components/layout/index";
 import SEO from "../components/seo";
 import { SectionBox } from "../components/home";
-import Icon from "../components/Icon";
 import { StaticImage } from "gatsby-plugin-image";
 
-const handleScroll = (isModalOpen) => {
-  if (isModalOpen === true) {
-    document.documentElement.style.overflow = "hidden";
-  } else {
-    document.documentElement.style.overflowY = "scroll";
-  }
-};
-
 const Index = (props) => {
-  const [isContactOpen, setContact] = useState(false);
-  const handleContact = () => {
-    // Look into state updates
-    // Look into state updates
-    handleScroll(!isContactOpen);
-    setContact(!isContactOpen);
-  };
-
   const sideClassName = "col-12 col-6-l mt6 mt0-l";
 
   return (
