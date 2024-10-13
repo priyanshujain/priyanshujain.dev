@@ -54,8 +54,6 @@ const Index = (props) => {
               </a>
               .
               </p>
-              <br />
-              <br />
               <h4 className="f3 sig-blue">Programmer</h4>
               <p className="f4 f3-ns sig-grey">
               For a brief period I was doing research in the field of matching
@@ -135,7 +133,6 @@ const Index = (props) => {
               well-understood tools to solve real problems, rather than chasing
               the latest trends or technologies.
               </p>
-              <br />
               <h4 className="f3 sig-blue">Athlete</h4>
               <p className="f4 f3-ns sig-grey">
               I'm a sports enthusiast and have experience of running many
@@ -184,8 +181,6 @@ const Index = (props) => {
               resources and opportunities. It's my way of merging my passion for
               sports with a mission to level the playing field.
               </p>
-              <br />
-              <br />
               <h4 className="f3 sig-blue">Pictures</h4>
               {
                 <StaticImage
