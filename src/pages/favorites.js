@@ -25,11 +25,11 @@ const Page = (props) => {
         />
         <div className=" pt0 pb5 pt10 pt10-ns pb20-ns">
           <div className="mw-l center">
-            <p className="ma0 pa0 pl5 pr5 mt4 f4 f3-ns sig-grey">
-              <div className="pb20">
+            <div className="ma0 pa0 pl5 pr5 mt4">
+              <p className="pb20">
               Some of my favorite blogs/essays/books that I have read over the
               years. 
-              </div>
+              </p>
               <Link
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   to="/pg"
@@ -83,7 +83,7 @@ const Page = (props) => {
                     <p className="underline fit-content">80,000 hours</p>
                   </h4>
                 </a>
-            </p>
+            </div>
           </div>
         </div>
       </div>

@@ -18,15 +18,17 @@ const Index = (props) => {
         />
         <div className="pt0 pb5 pt10-ns">
           <div className="mw-l center">
-            <p className="ma0 pa0 pl5 pr5 mt4 f4 f3-ns sig-grey">
-              <p
+            <div className="ma0 pa0 pl5 pr5 mt4">
+              <span
                 className="f3 sig-grey"
                 style={{
                   fontStyle: "italic",
                 }}
               >
                 Programmer/ Athelete / Effective Altruist
-              </p>
+              </span>
+              <br />
+              <p className="f4 f3-ns sig-grey">
               I am pjay, a software developer and an advocate for
               technology-driven impact. I sometimes{" "}
               <a href="/writings">write</a> about software, philosophy, and
@@ -51,9 +53,11 @@ const Index = (props) => {
                 Github
               </a>
               .
+              </p>
               <br />
               <br />
               <h4 className="f3 sig-blue">Programmer</h4>
+              <p className="f4 f3-ns sig-grey">
               For a brief period I was doing research in the field of matching
               algorithms and wrote two papers on applications of matching
               algorithms in healthcare(organ exchanges).
@@ -127,7 +131,10 @@ const Index = (props) => {
               why companies like Basecamp have thrived—they use simple,
               well-understood tools to solve real problems, rather than chasing
               the latest trends or technologies.
+              </p>
+              <br />
               <h4 className="f3 sig-blue">Athlete</h4>
+              <p className="f4 f3-ns sig-grey">
               I'm a sports enthusiast and have experience of running many
               marathons and triathlons(🏊🚴🏃). I did an Ironman 70.3 in 2022.
               This started as a channel to get out of the house and get some for
@@ -154,7 +161,9 @@ const Index = (props) => {
               enrolled in a mountaineering course at HMI Darjeeling (starting
               Dec 2024) and have been training for it for the last few months.
               <br />
+              </p>
               <h4 className="f3 sig-blue">Effective Altruist</h4>
+              <p className="f4 f3-ns sig-grey">
               Beyond my work in tech, I am committed to giving back. I am a big
               believer of effective altruism—using evidence and reason to figure
               out how to benefit others the most and taking action on that
@@ -171,6 +180,7 @@ const Index = (props) => {
               supporting underprivileged athletes by connecting them with
               resources and opportunities. It's my way of merging my passion for
               sports with a mission to level the playing field.
+              </p>
               <br />
               <br />
               <h4 className="f3 sig-blue">Pictures</h4>
@@ -199,7 +209,7 @@ const Index = (props) => {
                   alt=""
                 />
               }
-            </p>
+            </div>
           </div>
         </div>
       </div>
