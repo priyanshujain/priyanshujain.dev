@@ -24,6 +24,7 @@ const Page = (props) => {
             <SEO
                 title="Multi-Agent Systems: When AI Agents Work Together"
                 description={`How multi-agent systems enable AI to collaborate like human teams, with practical applications in infrastructure debugging`}
+                image={"/multi-agent-systems.jpg"}
             />
             <div
                 className="main-content"
@@ -85,7 +86,7 @@ const Page = (props) => {
                             This is a powerful pattern that allows the main agent to focus on planning and high-level decision making, while the sub-agents handle the details of specific tasks.
                             <br />
                             <br />
-                            {<Icon name="/multi-agent-systems.jpg" />}
+                            {<Icon name="multi-agent-systems.jpg" />}
                         </p>
                     </div>
                 </div>
