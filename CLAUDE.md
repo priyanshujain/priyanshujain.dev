@@ -54,3 +54,4 @@ Uses Netlify for hosting. The deploy script:
 - Prettier for code formatting
 - Site generates sitemap automatically
 - PWA manifest configured but offline plugin disabled
+- **Build artifacts**: The `public/` folder contains Gatsby build output and should be ignored when checking for uncommitted changes during branch switches
