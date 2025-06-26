@@ -25,7 +25,7 @@ const Index = (props) => {
                   fontStyle: "italic",
                 }}
               >
-                Programmer/ Athelete / Effective Altruist
+                Programmer/ Athlete / Effective Altruist
               </span>
               <br />
               <p className="f4 f3-ns sig-grey">
@@ -67,14 +67,14 @@ const Index = (props) => {
               <br />
               Over the years, I've co-founded a startup, navigated the ups and
               downs of the startup world, and built products spanning financial
-              softwares, payment platforms, and cloud infrastucture.
+              software, payment platforms, and cloud infrastructure.
               <br />I currently work at{" "}
               <a href="https://okcredit.in" target="_blank">
                 OkCredit
               </a>{" "}
               {` `}
               where I work as Principal Engineer and responsible for backend,
-              security and infrastucture things.
+              security and infrastructure things.
               <br />
               <br />I am a big fan of open source. I build and maintain a few
               open source projects :-
@@ -114,7 +114,7 @@ const Index = (props) => {
                 </li>
               </ul>
               <p className="f4 f3-ns sig-grey">
-              <br />I idetify myself a software philosopher and always ponder
+              <br />I identify myself as a software philosopher and always ponder
               about the complexity of software systems and what makes a software
               great. I have this{" "}
               <a
@@ -137,7 +137,7 @@ const Index = (props) => {
               <p className="f4 f3-ns sig-grey">
               I'm a sports enthusiast and have experience of running many
               marathons and triathlons(🏊🚴🏃). I did an Ironman 70.3 in 2022.
-              This started as a channel to get out of the house and get some for
+              This started as a channel to get out of the house and get some
               exercise during covid, but it has since become a serious hobby.
               Last few years, I have been training for running and triathlons. I
               have been part of running groups and have participated in more
