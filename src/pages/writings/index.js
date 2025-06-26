@@ -247,6 +247,17 @@ const Writing = (props) => {
                 </a>
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/swimming-3km-open-water"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">
+                      How did I swim 3km in open water?
+                    </p>
+                    <p className="tertiary-text-color tl">Oct 10, 2023</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/training-for-ironman"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
