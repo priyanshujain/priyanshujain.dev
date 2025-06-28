@@ -64,7 +64,7 @@ const Page = (props) => {
               All this is loosely tied to another truth: LLMs tend to generate average code at best. At worst, they produce overengineered, subtly broken slop that looks okay until it bites you.
               <br />
               <br />
-              A junior developer can be coached, mentored, and improved. An LLM? It won't learn from your feedback. You might think it just needs better prompt engineering. Believe me I've tried. A lot.
+              A junior developer can be coached, mentored, and improved.  An LLM can't even if you think you just need a little prompt engineering to fix this. Believe me I tried a lot.
             </p>
           </div>
         </div>
