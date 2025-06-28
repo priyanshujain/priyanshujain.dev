@@ -15,6 +15,7 @@ const Page = (props) => {
       <SEO
         title="Why do we still need to babysit coding agents?"
         description="One of the biggest problems with coding agents today is that they invent implicit rules and then rigidly follow them. Exploring the challenges with current coding agents and their reliability issues."
+        image="/babysitting-coding-agents.png"
       />
       <div
         className="main-content"
