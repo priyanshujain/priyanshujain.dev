@@ -25,6 +25,7 @@ const Page = (props) => {
       <SEO
         title="A tiny HRM 27M beat Opus 4 and o3 on the ARC AGI benchmark"
         description={`That sounds very surprising. Most of the SOTA models we hear about are hundreds of billions to a few trillion parameters. HRM shows something different can work for reasoning on limited data.`}
+        image="/arc-prize-leaderboard.png"
       />
       <div
         class="main-content"
