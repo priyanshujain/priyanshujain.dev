@@ -115,6 +115,15 @@ const Writing = (props) => {
               <div className="mt10 ma20-l">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/npm-packages-supply-chain-attacks"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">Should we use the latest npm packages or wait for a release to settle?</p>
+                    <p className="tertiary-text-color tl">Sep 10, 2025</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/early-career-jobs-are-shot"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
@@ -222,7 +231,7 @@ const Writing = (props) => {
                   </h4>
                 </a>
                 <a
-                className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/ideal-software"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
