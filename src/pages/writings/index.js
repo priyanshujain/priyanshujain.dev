@@ -115,6 +115,15 @@ const Writing = (props) => {
               <div className="mt10 ma20-l">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/tokens-not-intelligence"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">Tokens != intelligence</p>
+                    <p className="tertiary-text-color tl">Sep 23, 2025</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/ai-infinite-money-glitch"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
