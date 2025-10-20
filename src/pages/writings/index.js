@@ -124,6 +124,24 @@ const Writing = (props) => {
                 </a>
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/llm-taking-programming-jobs"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">Is LLM Coding Going to Take Programming Jobs? I'm Not Worried.</p>
+                    <p className="tertiary-text-color tl">Jul 05, 2025</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/how-to-garbage-collect-thoughts"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">How to Garbage Collect Your Thoughts</p>
+                    <p className="tertiary-text-color tl">Jul 02, 2025</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/babysitting-coding-agents"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
