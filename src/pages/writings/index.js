@@ -115,6 +115,15 @@ const Writing = (props) => {
               <div className="mt10 ma20-l">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
+                  href="/writings/production-outage-coding-agent"
+                >
+                  <h4 className="f3 ma0 flex-l justify-between">
+                    <p className="left fit-content">Production outage from copy paste error made by a coding agent :(</p>
+                    <p className="tertiary-text-color tl">Sep 18, 2025</p>
+                  </h4>
+                </a>
+                <a
+                  className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/npm-packages-supply-chain-attacks"
                 >
                   <h4 className="f3 ma0 flex-l justify-between">
