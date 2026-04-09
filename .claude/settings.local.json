@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)",
+      "Bash(unzip -l multi-agent-linkedin-post.zip)",
+      "Bash(unzip multi-agent-linkedin-post.zip -d extracted/)",
+      "Bash(cp extracted/images/image1.jpg static/multi-agent-systems.jpg)",
+      "Bash(git checkout -b add-multi-agent-systems-blog)",
+      "Bash(git add src/pages/writings/multi-agent-systems.js src/pages/writings/index.js static/multi-agent-systems.jpg CLAUDE.md)",
+      "Bash(git commit -m \"$(cat <<'EOF'\nAdd multi-agent systems blog post\n\n- Create new blog post about multi-agent AI systems and their applications in infrastructure debugging\n- Add supporting image for the blog post\n- Update writings index to include new post with June 16, 2025 date\n- Add CLAUDE.md file with development guidance for the codebase\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push -u origin add-multi-agent-systems-blog)",
+      "Bash(gh pr create --title \"Add multi-agent systems blog post\" --body \"$(cat <<'EOF'\n## Summary\n- Add new blog post about multi-agent AI systems and their applications in infrastructure debugging\n- Include supporting image for the blog post\n- Update writings index to include new post with June 16, 2025 date\n- Add CLAUDE.md file with development guidance for the codebase\n\n## Test plan\n- [x] Build completes successfully with `npm run build`\n- [x] New page generates at `/writings/multi-agent-systems/`\n- [x] Writings index updated with new entry\n- [x] Image displays correctly\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\nEOF\n)\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": []
+  }
+}

@@ -3,6 +3,14 @@ import Layout from "../../components/layout/index";
 import SEO from "../../components/seo";
 import { SectionBox } from "../../components/home";
 
+const handleScroll = (isModalOpen) => {
+  if (isModalOpen === true) {
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.documentElement.style.overflowY = "scroll";
+  }
+};
+
 const Page = (props) => {
   const [isContactOpen, setContact] = useState(false);
   const handleContact = () => {
