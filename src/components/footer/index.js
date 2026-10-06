@@ -6,7 +6,7 @@ const Footer = () => {
   const linkClassName =
     "ma0 pa0 f5 mt2 mb2 tertiary-text-color primary-text-color-hover db";
   return (
-    <div>
+    <div className="site-footer">
       <div
         className={`${styleVars.page.xl} pt10 pb10 grid-12 gutter-row-40 gutter-36-ns flex-l justify-between`}
       >

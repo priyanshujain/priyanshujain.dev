@@ -1,17 +1,26 @@
 :root {
-  --signature-blue: #132945; /* #232A69; */
+  --color-cream: #1c1b18;
+  --color-black: #c2bfba;
+  --color-gray-800: #d4d1cc;
+  --color-gray-600: #a8a5a0;
+  --color-bright-crimson: #00b4d8;
+  --color-sea-blue: #2bc4da;
+  --font-serif: "Canela Deck", serif;
+  --font-body: "Canela Text", serif;
+  --font-sans: "Lato", sans-serif;
+  --signature-blue: var(--color-black);
   --background-blue: #132945; /* #08083d; */
-  --signature-grey: rgba(51, 62, 99, 0.7);
-  --signature-red: #e2382a;
+  --signature-grey: var(--color-gray-800);
+  --signature-red: var(--color-bright-crimson);
   --danger-red: #ff0000;
   --signature-green: #72d892;
   --signature-yellow: #ffa600;
   --background-grey: rgba(167, 182, 240, 0.04);
-  --primary-color: #132945; /* #132945; */
-  --primary-color-rgb: 19, 41, 69;
-  --primary-text-color: #1f2533;
-  --secondary-text-color: rgba(31, 37, 51, 0.8);
-  --tertiary-text-color: rgba(112, 116, 125, 0.6);
+  --primary-color: var(--color-bright-crimson);
+  --primary-color-rgb: 0, 180, 216;
+  --primary-text-color: var(--color-black);
+  --secondary-text-color: var(--color-gray-800);
+  --tertiary-text-color: var(--color-gray-600);
   ;
 }
 
@@ -52,7 +61,7 @@
 }
 
 h1 {
-  font-family: 'Circular Bold';
+  font-family: var(--font-serif);
 }
 
 h1,
@@ -183,11 +192,13 @@ p {
 }
 
 .mw-l {
-  max-width: 98rem;
+  max-width: 84rem;
 }
 
 .mw-xl {
-  max-width: 128rem;
+  max-width: 88rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mw-144 {

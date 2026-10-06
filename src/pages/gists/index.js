@@ -10,17 +10,17 @@ const Writing = (props) => {
       <div class="main-content">
         <div className={`${styleVars.page.xl} mb10`}>
           <div className="pt10 pb10 pt20-ns tc tl-ns pb20-ns">
-            <h1 className="pa0 f3 f1-ns center fw-bold tc">Gists</h1>
-            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal tc">
+            <h1 className="pa0 f3 f1-ns fw-bold">Gists</h1>
+            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal">
               This is small quick reference for programmers.
             </p>
             <div>
-              <div className="mt10 ma20-l">
+              <div className="mt10">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/gists/access-latencies"
                 >
-                  <h4 className="f3 flex-l justify-center">
+                  <h4 className="f3 flex-l justify-between">
                   <p className="fit-content">
                   Latency Numbers Every Programmer Should Know
                   </p>

@@ -1,8 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 @import "grid.css";
 @import "misc.css";
 @import "spacing.css";
 @import "fonts-sizes.css";
 @import "custom.css";
+
+@font-face {
+  font-family: "Canela Deck";
+  src: url("./fonts/CanelaDeck-Light.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela Deck";
+  src: url("./fonts/CanelaDeck-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela Deck";
+  src: url("./fonts/CanelaDeck-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela Text";
+  src: url("./fonts/CanelaText-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela Text";
+  src: url("./fonts/CanelaText-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela Text";
+  src: url("./fonts/CanelaText-Medium.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Circular';
@@ -15,7 +64,31 @@
 }
 
 body {
-  font-family: 'Circular', sans-serif !important;
+  font-family: var(--font-body) !important;
+  background: var(--color-cream);
+  color: var(--color-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+p a,
+li a {
+  color: var(--color-bright-crimson);
+}
+
+a:hover {
+  color: var(--color-bright-crimson);
 }
 
 .main-content {
@@ -26,4 +99,86 @@ body {
 th, td {
   font-size: 1.6rem;
   padding: 1.6rem;
+}
+/* Typography sized to match maggieappleton.com essays. The 800px column comes from .mw-xl and .mw-l. */
+h1.sig-blue.f-headline-ns {
+  text-align: left;
+  font-family: var(--font-serif);
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+p.sig-grey.f3-ns {
+  font-family: var(--font-body);
+  font-size: 1.9rem;
+  line-height: 2;
+  color: var(--color-gray-800);
+}
+
+@media screen and (min-width: 30em) {
+  h1.sig-blue.f-headline-ns {
+    font-size: 5.6rem;
+  }
+
+  p.sig-grey.f3-ns {
+    font-size: 2.2rem;
+  }
+}
+
+.header-container a {
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+}
+
+/* SectionBox body cell: fill the column so short headings sit on the left edge */
+.grid-12 > .col-12 {
+  width: 100%;
+}
+
+/* Listing rows: keep the date on one line and let the title wrap instead */
+h4.flex-l > .tertiary-text-color {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 66rem) {
+  h4.flex-l > .tertiary-text-color {
+    margin-left: 2.4rem;
+  }
+}
+
+.site-footer .grid-12 > .col-12 {
+  width: auto;
+}
+
+.site-footer .grid-12 {
+  align-items: center;
+}
+
+.site-footer .circular-box {
+  background-color: transparent;
+  width: auto;
+  justify-content: flex-start;
+}
+
+.site-footer .circular-box img {
+  margin-left: 0;
+}
+
+.site-footer .circular-box img {
+  filter: brightness(0) invert(0.75);
+  transition: filter 0.2s ease;
+}
+
+.site-footer a:hover .circular-box img {
+  filter: brightness(0) invert(1);
+}
+
+.site-footer .flex > a {
+  margin-right: 2.4rem;
+}
+
+.site-footer .flex > a:last-child {
+  margin-right: 0;
 }

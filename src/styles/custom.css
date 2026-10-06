@@ -1,5 +1,5 @@
 :root {
-  --signature-blue: #132945; /*#08083d; */
+  --signature-blue: var(--color-black);
   --signature-red-gradient: linear-gradient(to bottom, #f74d40, rgba(247, 77, 64, 0.5));
   --signature-yellow-gradient: linear-gradient(to bottom, #ffa600, rgba(255, 166, 0, 0.5));
   --signature-green-gradient: linear-gradient(to bottom, #2fba71, rgba(47, 186, 113, 0.5));
@@ -8,7 +8,7 @@
   --steps-line-offset-l: 340px;
   --product-card-shadow: 0px 0px 20px rgba(30, 67, 255, 0.1);
   --product-card-shadow-l: 0 0 40px 0 rgba(30, 67, 255, 0.25);
-  --background-color: #fafafa;
+  --background-color: #1c1b18;
 }
 
 .circular-box {

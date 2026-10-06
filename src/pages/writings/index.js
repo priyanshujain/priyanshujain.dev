@@ -106,13 +106,13 @@ const Writing = (props) => {
       <div class="main-content">
         <div className={`${styleVars.page.xl} mb10`}>
           <div className="pt10 pt20-ns tc tl-ns">
-            <h1 className="pa0 f3 f1-ns center fw-bold tc">My Writings</h1>
-            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal tc">
+            <h1 className="pa0 f3 f1-ns fw-bold">My Writings</h1>
+            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal">
               I write about my experiences, learnings and thoughts on various
               topics.
             </p>
             <div>
-              <div className="mt10 ma20-l">
+              <div className="mt10">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="/writings/bounded-contexts-for-testing-ai-agents"
@@ -444,12 +444,12 @@ const Writing = (props) => {
             </div>
           </div>
           <div className="tc tl-ns">
-            <h1 className="pa0 f3 f1-ns center fw-bold tc">My Papers</h1>
-            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal tc">
+            <h1 className="pa0 f3 f1-ns fw-bold">My Papers</h1>
+            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal">
               My research papers and other academic writings.
             </p>
             <div>
-              <div className="mt10 ma20-l">
+              <div className="mt10">
                 <a
                   className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
                   href="https://www.preprints.org/manuscript/202510.0924"
@@ -491,12 +491,12 @@ const Writing = (props) => {
             </div>
           </div>
           <div className="pb10 tc tl-ns pb20-ns">
-            <h1 className="pa0 f3 f1-ns center fw-bold tc">Past Writings</h1>
-            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal tc">
+            <h1 className="pa0 f3 f1-ns fw-bold">Past Writings</h1>
+            <p className="f4 f3-ns ma0 mt4 mt10-ns fw-normal">
               writings from my old blog and other platforms.
             </p>
             <div>
-              <div className="mt10 ma20-l">
+              <div className="mt10">
                 {pastWritings.map((writing, index) => (
                   <a
                     className="primary-text-color ma0 pa0 f5 mr6 fw-bold"
