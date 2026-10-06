@@ -34,10 +34,10 @@ const Index = (props) => {
               <a href="/writings">write</a> about software, philosophy, and
               sports.
               <br />I welcome emails at{" "}
-              <a href="mailto:priyanshu@protonmail.com">priyanshu@pm.me</a>. You
+              <a href="mailto:p@pjay.in">p@pjay.in</a>. You
               can also find me on{" "}
-              <a href="https://twitter.com/dotpjay" target="_blank">
-                Twitter
+              <a href="https://x.com/pjay_in" target="_blank">
+                X
               </a>
               ,
               <a

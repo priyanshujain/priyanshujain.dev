@@ -36,12 +36,21 @@ const Footer = () => {
               </div>
             </a>
             <a
-              href="https://twitter.com/impriyanshujain"
+              href="https://x.com/pjay_in"
               className="db mr4"
               target="_blank"
             >
               <div className="circular-box mt2">
-                <Icon name="twitter.png" className="ma0 pa0 mh2" />
+                <Icon name="x.svg" className="ma0 pa0 mh2" />
+              </div>
+            </a>
+            <a
+              href="https://www.instagram.com/pjay_in/"
+              className="db mr4"
+              target="_blank"
+            >
+              <div className="circular-box mt2">
+                <Icon name="instagram.svg" className="ma0 pa0 mh2" />
               </div>
             </a>
           </div>

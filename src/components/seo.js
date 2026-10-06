@@ -79,7 +79,7 @@ function SEO({
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `@pjay_in`,
         },
         {
           name: `twitter:title`,
